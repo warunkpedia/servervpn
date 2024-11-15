@@ -1,27 +1,14 @@
 proxies:
-  - name: FAST
-    server: quiz.vidio.com
+  - name: xl xcv
+    server: support.zoom.us
     port: 443
     type: trojan
-    password: 44c76770-fda2-11ee-9db7-1239d0255272
-    skip-cert-verify: true
-    sni: sg-4.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-4.test3.net
+    password: 735dc122-5fbe-4e48-af87-4be34078dfb8
     udp: true
-  - name: AKUN2
-    server: quiz.vidio.com
-    port: 443
-    type: trojan
-    password: 44c76770-fda2-11ee-9db7-1239d0255272
     skip-cert-verify: true
-    sni: sg-4.test3.net
     network: ws
+    sni: zoomgov.ifast.my(.)id
     ws-opts:
-      path: /howdy
+      path: /trojan
       headers:
-        Host: sg-4.test3.net
-    udp: true
+        Host: do5.ifast.my(.)id
