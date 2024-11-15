@@ -7,8 +7,8 @@ proxies:
     udp: true
     skip-cert-verify: true
     network: ws
-    sni: zoomgov.ifast.my(.)id
+    sni: zoomgov.ifast.my.id
     ws-opts:
       path: /trojan
       headers:
-        Host: do5.ifast.my(.)id
+        Host: do5.ifast.my.id
