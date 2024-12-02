@@ -1,14 +1,17 @@
 proxies:
-  - name: xl xcv
+  - name: XCV WILDCARD
     server: support.zoom.us
     port: 443
-    type: trojan
-    password: 735dc122-5fbe-4e48-af87-4be34078dfb8
-    udp: true
+    type: vmess
+    uuid: 20e72b66-22e9-4e0b-8dd5-6dc2bfee3642
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
+    servername: zoomgov.storevpn.cc
     network: ws
-    sni: zoomgov.ifast.my.id
     ws-opts:
-      path: /trojan
+      path: /vmess
       headers:
-        Host: do5.ifast.my.id
+        Host: biznet-2.storevpn.cc
+    udp: true
