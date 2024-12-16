@@ -1,5 +1,5 @@
 proxies:
-  - name: pdwch
+  - name: pdwch SG
     server: support.zoom.us
     type: trojan
     port: 443
@@ -12,4 +12,17 @@ proxies:
       path: /trojan
       headers:
         Host: sg-d6.vmess.live
+    udp: true
+  - name: pdwch ID
+    server: support.zoom.us
+    type: trojan
+    port: 443
+    password: 972dc7f5-79e9-4672-810f-91a1701006fb
+    skip-cert-verify: true
+    sni: zoomgov.vmess.live
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id-ikd.vmess.live
     udp: true
