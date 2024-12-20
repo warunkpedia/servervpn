@@ -17,12 +17,12 @@ proxies:
     server: support.zoom.us
     type: trojan
     port: 443
-    password: 972dc7f5-79e9-4672-810f-91a1701006fb
+    password: ae74156e-efcf-4bbe-8599-c963de0339f5
     skip-cert-verify: true
-    sni: zoomgov.vmess.live
+    sni: zoomgov.servercepat.net
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-ws
       headers:
-        Host: id-ikd.vmess.live
+        Host: id1.servercepat.net
     udp: true
