@@ -1,0 +1,208 @@
+payload:
+  #rule-game
+  - DOMAIN-SUFFIX,ffmobile.com
+  - DOMAIN-SUFFIX,freefire.com
+  - DOMAIN-SUFFIX,api.freefire.com
+  - DOMAIN-SUFFIX,live.freefire.com
+  - DOMAIN-SUFFIX,ff-api.com
+
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,api.steampowered.com
+  - DOMAIN-SUFFIX,cdn.steampowered.com
+  - DOMAIN-SUFFIX,store.steampowered.com
+
+  - DOMAIN-SUFFIX,mobilelegends.com
+  - DOMAIN-SUFFIX,mlbb.com
+  - DOMAIN-SUFFIX,api.mobilelegends.com
+  - DOMAIN-SUFFIX,live.mobilelegends.com
+  - DOMAIN-SUFFIX,pvp.mobilelegends.com
+
+  - DOMAIN-SUFFIX,pubgmobile.com
+  - DOMAIN-SUFFIX,api.pubgmobile.com
+  - DOMAIN-SUFFIX,game.pubgmobile.com
+  - DOMAIN-SUFFIX,live.pubgmobile.com
+  - DOMAIN-SUFFIX,pubg-api.com
+
+  - DOMAIN-SUFFIX,codm.com
+  - DOMAIN-SUFFIX,callofduty.com
+  - DOMAIN-SUFFIX,api.callofduty.com
+  - DOMAIN-SUFFIX,cdn.callofduty.com
+  - DOMAIN-SUFFIX,game.callofduty.com
+
+  - DOMAIN-SUFFIX,valorant.com
+  - DOMAIN-SUFFIX,riotgames.com
+  - DOMAIN-SUFFIX,api.riotgames.com
+  - DOMAIN-SUFFIX,cdn.riotgames.com
+  - DOMAIN-SUFFIX,game.riotgames.com
+
+  - DOMAIN-SUFFIX,pointblank.id
+  - DOMAIN-SUFFIX,pointblank.co.id
+  - DOMAIN-SUFFIX,pbgames.com
+  - DOMAIN-SUFFIX,api.pointblank.com
+  - DOMAIN-SUFFIX,cdn.pointblank.com
+
+  - DOMAIN-SUFFIX,genshinimpact.com
+  - DOMAIN-SUFFIX,miHoYo.com
+  - DOMAIN-SUFFIX,api.genshinimpact.com
+  - DOMAIN-SUFFIX,cdn.genshinimpact.com
+  - DOMAIN-SUFFIX,web.genshinimpact.com
+
+  - DOMAIN-SUFFIX,aovmobile.com
+  - DOMAIN-SUFFIX,arenaofvalor.com
+  - DOMAIN-SUFFIX,api.arenofvalor.com
+  - DOMAIN-SUFFIX,cdn.arenofvalor.com
+  - DOMAIN-SUFFIX,game.arenofvalor.com
+
+  - DOMAIN-SUFFIX,apexlegends.com
+  - DOMAIN-SUFFIX,ea.com
+  - DOMAIN-SUFFIX,api.apexlegends.com
+  - DOMAIN-SUFFIX,cdn.apexlegends.com
+  - DOMAIN-SUFFIX,store.apexlegends.com
+
+  - DOMAIN-SUFFIX,dota2.com
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,api.dota2.com
+  - DOMAIN-SUFFIX,cdn.dota2.com
+  - DOMAIN-SUFFIX,game.dota2.com
+
+  - DOMAIN-SUFFIX,auditionsea.com
+  - DOMAIN-SUFFIX,ayodance.com
+  - DOMAIN-SUFFIX,game.ayodance.com
+  - DOMAIN-SUFFIX,cdn.ayodance.com
+  - DOMAIN-SUFFIX,api.ayodance.com
+
+  #rule-sosmed
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,m.facebook.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,fb.com
+  - DOMAIN-SUFFIX,graph.facebook.com
+
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,api.twitter.com
+  - DOMAIN-SUFFIX,platform.twitter.com
+  - DOMAIN-SUFFIX,mobile.twitter.com
+  - DOMAIN-SUFFIX,t.co
+
+  - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,web.telegram.org
+  - DOMAIN-SUFFIX,api.telegram.org
+  - DOMAIN-SUFFIX,t.me
+  - DOMAIN-SUFFIX,desktop.telegram.org
+
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,instagramcdn.com
+  - DOMAIN-SUFFIX,instagram-static.com
+  - DOMAIN-SUFFIX,api.instagram.com
+  - DOMAIN-SUFFIX,upload.instagram.com
+
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokapi.com
+  - DOMAIN-SUFFIX,tiktok.us
+  - DOMAIN-SUFFIX,us.tiktok.com
+
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,m.youtube.com
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,googlevideo.com
+  - DOMAIN-SUFFIX,yt3.ggpht.com
+
+  - DOMAIN-SUFFIX,snapchat.com
+  - DOMAIN-SUFFIX,web.snapchat.com
+  - DOMAIN-SUFFIX,snapchatcdn.com
+  - DOMAIN-SUFFIX,app.snapchat.com
+  - DOMAIN-SUFFIX,api.snapchat.com
+
+  - DOMAIN-SUFFIX,pinterest.com
+  - DOMAIN-SUFFIX,api.pinterest.com
+  - DOMAIN-SUFFIX,assets.pinterest.com
+  - DOMAIN-SUFFIX,secure.pinterest.com
+  - DOMAIN-SUFFIX,pinimg.com
+
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,web.whatsapp.com
+  - DOMAIN-SUFFIX,api.whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net
+  - DOMAIN-SUFFIX,webapi.whatsapp.com
+
+  - DOMAIN-SUFFIX,linkedin.com
+  - DOMAIN-SUFFIX,linkedin-static.com
+  - DOMAIN-SUFFIX,api.linkedin.com
+  - DOMAIN-SUFFIX,m.linkedin.com
+  - DOMAIN-SUFFIX,media.linkedin.com
+
+  #rule-bank
+  - DOMAIN-SUFFIX,bri.co.id
+  - DOMAIN-SUFFIX,bankbri.co.id
+  - DOMAIN-SUFFIX,bri-api.com
+  - DOMAIN-SUFFIX,brifastpay.com
+  - DOMAIN-SUFFIX,bankbri-cloud.com
+
+  - DOMAIN-SUFFIX,bankmandiri.co.id
+  - DOMAIN-SUFFIX,mandiri.co.id
+  - DOMAIN-SUFFIX,mandiri.com
+  - DOMAIN-SUFFIX,api.bankmandiri.com
+  - DOMAIN-SUFFIX,atm.mandiri.co.id
+
+  - DOMAIN-SUFFIX,bca.co.id
+  - DOMAIN-SUFFIX,bca-api.com
+  - DOMAIN-SUFFIX,bca-web.com
+  - DOMAIN-SUFFIX,atm-bca.com
+  - DOMAIN-SUFFIX,bca-transaction.com
+
+  #rule-lainnya
+  - DOMAIN-SUFFIX,zoom.us
+  - DOMAIN-SUFFIX,zoom.com
+  - DOMAIN-SUFFIX,zoom.us.ssl
+  - DOMAIN-SUFFIX,zoomgov.com
+  - DOMAIN-SUFFIX,zoom.us-sessions.com
+
+  - DOMAIN-SUFFIX,meet.google.com
+  - DOMAIN-SUFFIX,googlemeet.com
+  - DOMAIN-SUFFIX,hangouts.google.com
+  - DOMAIN-SUFFIX,meet.googleusercontent.com
+  - DOMAIN-SUFFIX,meet.googleapi.com
+
+  - DOMAIN-SUFFIX,netflix.com
+  - DOMAIN-SUFFIX,netflix.net
+  - DOMAIN-SUFFIX,api.netflix.com
+  - DOMAIN-SUFFIX,cdn.netflix.com
+  - DOMAIN-SUFFIX,static.netflix.com
+
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,office.com
+  - DOMAIN-SUFFIX,outlook.com
+  - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,msn.com
+
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,appstore.com
+  - DOMAIN-SUFFIX,appleid.apple.com
+  - DOMAIN-SUFFIX,cdn.apple.com
+
+  - DOMAIN-SUFFIX,slack.com
+  - DOMAIN-SUFFIX,slack-img.com
+  - DOMAIN-SUFFIX,api.slack.com
+  - DOMAIN-SUFFIX,slack.com.sl
+  - DOMAIN-SUFFIX,cdn.slack.com
+
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,api.github.com
+  - DOMAIN-SUFFIX,cdn.jsdelivr.net
+  - DOMAIN-SUFFIX,gist.github.com
+
+  - DOMAIN-SUFFIX,dropbox.com
+  - DOMAIN-SUFFIX,dropboxusercontent.com
+  - DOMAIN-SUFFIX,api.dropbox.com
+  - DOMAIN-SUFFIX,dl.dropbox.com
+  - DOMAIN-SUFFIX,cdn.dropbox.com
+
+  - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,api.spotify.com
+  - DOMAIN-SUFFIX,open.spotify.com
+  - DOMAIN-SUFFIX,spotifycdn.com
+  - DOMAIN-SUFFIX,accounts.spotify.com
