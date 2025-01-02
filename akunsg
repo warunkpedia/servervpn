@@ -13,3 +13,17 @@ proxies:
       headers:
         Host: sg1.servercepat.net
     udp: true
+  - name: pdwch backup
+    server: support.zoom.us
+    type: trojan
+    port: 443
+    password: f5c90347-38f3-4374-a46d-ee65eb252869
+    tls: true
+    skip-cert-verify: true
+    sni: zoomgov.servercepat.net
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg4.servercepat.net
+    udp: true
