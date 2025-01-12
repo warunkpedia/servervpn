@@ -31,7 +31,7 @@ proxies:
     server: support.zoom.us
     type: trojan
     port: 443
-    password: f5c90347-38f3-4374-a46d-ee65eb252869
+    password: 4de66394-0087-4968-b104-a3a7cd935785
     tls: true
     skip-cert-verify: true
     sni: zoomgov.sg-ls.wc-webkuy.web.id
