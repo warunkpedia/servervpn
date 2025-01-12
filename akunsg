@@ -31,13 +31,13 @@ proxies:
     server: support.zoom.us
     type: trojan
     port: 443
-    password: 4de66394-0087-4968-b104-a3a7cd935785
+    password: f71bfe92-65fc-475f-ae2f-1dab157ffb87
     tls: true
     skip-cert-verify: true
-    sni: zoomgov.sg-ls.wc-webkuy.web.id
+    sni: zoomgov.sgm-viprext.biz.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-ws
       headers:
-        Host: sg-ls.webkuy.my.id
+        Host: sgm-viprext.biz.id
     udp: true
