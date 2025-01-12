@@ -34,7 +34,7 @@ proxies:
     password: d1616a99-c660-43e2-9d6c-905a145dcef9
     tls: true
     skip-cert-verify: true
-    sni: zoomgov.id-dwb.wc-webkuy.web.id
+    sni: zoomgov.wc-webkuy.web.id
     network: ws
     ws-opts:
       path: /trojan
