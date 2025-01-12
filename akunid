@@ -1,5 +1,5 @@
 proxies:
-  - name: pdwch ID
+  - name: ID-BIZNET
     server: support.zoom.us
     type: trojan
     port: 443
@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: id1.servercepat.net
     udp: true
-  - name: pdwch
+  - name: ID-IKD
     server: support.zoom.us
     type: trojan
     port: 443
