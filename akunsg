@@ -27,17 +27,3 @@ proxies:
       headers:
         Host: sg4.servercepat.net
     udp: true
-  - name: SG-LEASE
-    server: support.zoom.us
-    type: trojan
-    port: 443
-    password: d1616a99-c660-43e2-9d6c-905a145dcef9
-    tls: true
-    skip-cert-verify: true
-    sni: zoomgov.wc-webkuy.web.id
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id-dwb.webkuy.my.id
-    udp: true
