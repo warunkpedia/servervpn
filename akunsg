@@ -37,7 +37,7 @@ proxies:
     sni: zoomgov.sg-ls.wc-webkuy.web.id
     network: ws
     ws-opts:
-      path: /trojan-ws
+      path: /trojan
       headers:
         Host: sg-ls.webkuy.my.id
     udp: true
