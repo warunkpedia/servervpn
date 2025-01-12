@@ -66,12 +66,6 @@ payload:
   - DOMAIN-SUFFIX,cdn.dota2.com
   - DOMAIN-SUFFIX,game.dota2.com
 
-  - DOMAIN-SUFFIX,auditionsea.com
-  - DOMAIN-SUFFIX,ayodance.com
-  - DOMAIN-SUFFIX,game.ayodance.com
-  - DOMAIN-SUFFIX,cdn.ayodance.com
-  - DOMAIN-SUFFIX,api.ayodance.com
-
   #rule-sosmed
   - DOMAIN-SUFFIX,facebook.com
   - DOMAIN-SUFFIX,m.facebook.com
