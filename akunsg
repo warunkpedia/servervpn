@@ -3,7 +3,7 @@ proxies:
     server: support.zoom.us
     type: trojan
     port: 443
-    password: de667a94-f27a-4841-9174-b6e6c94196d0
+    password: ab78caf5-982b-47a7-a0c8-c64982039e47
     tls: true
     skip-cert-verify: true
     sni: zoomgov.servercepat.net
@@ -11,19 +11,5 @@ proxies:
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: sg1.servercepat.net
-    udp: true
-  - name: SG-BACKUP
-    server: support.zoom.us
-    type: trojan
-    port: 443
-    password: f5c90347-38f3-4374-a46d-ee65eb252869
-    tls: true
-    skip-cert-verify: true
-    sni: zoomgov.servercepat.net
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: sg4.servercepat.net
+        Host: sg2.servercepat.net
     udp: true
