@@ -12,3 +12,16 @@ proxies:
       headers:
         Host: id4.servercepat.net
     udp: true
+  - name: ID-UNINET
+    server: support.zoom.us
+    type: trojan
+    port: 443
+    password: 0e6cd953-187f-4c20-9636-b72a2e1fc53c
+    skip-cert-verify: true
+    sni: zoomgov.storevpn.cc
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: uninet-stb1.storevpn.cc
+    udp: true
