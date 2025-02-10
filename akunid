@@ -1,5 +1,5 @@
 proxies:
-  - name: ID-UTAMA
+  - name: ID-DEWAWEB
     server: support.zoom.us
     type: trojan
     port: 443
