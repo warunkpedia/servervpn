@@ -1,5 +1,5 @@
 proxies:
-  - name: SG-UTAMA
+  - name: SG-DIGITALOCEAN
     server: support.zoom.us
     type: trojan
     port: 443
