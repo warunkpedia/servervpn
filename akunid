@@ -12,3 +12,16 @@ proxies:
       headers:
         Host: biznet-2.storevpn.cc
     udp: true
+- name: ID-UNINET-VIDIO
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: e142bacf-ffd5-43d8-ac7e-9d41a998d3bd
+  network: ws
+  sni: id-uninet.webkuy.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan
+    headers:
+        Host: id-uninet.webkuy.my.id
