@@ -5,7 +5,7 @@ proxies:
     port: 443
     password: a421dba3-d6d9-4593-a355-5a992ff0f1e6
     skip-cert-verify: true
-    sni: zoomgov.storevpn.cc
+    sni: zoomgov.servercepat.net
     network: ws
     ws-opts:
       path: /trojan
