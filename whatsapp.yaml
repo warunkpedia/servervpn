@@ -13,6 +13,11 @@ payload:
   - DOMAIN-SUFFIX,whatsapp.tv
   - DOMAIN-SUFFIX,whatsappbrand.com
   - DOMAIN-SUFFIX,partner.komerce.id
+  - DOMAIN-SUFFIX,valorant.com
+  - DOMAIN-SUFFIX,riotgames.com
+  - DOMAIN-SUFFIX,api.riotgames.com
+  - DOMAIN-SUFFIX,cdn.riotgames.com
+  - DOMAIN-SUFFIX,game.riotgames.com
   - DST-PORT,3478
   - DST-PORT,4244
   - DST-PORT,5222
