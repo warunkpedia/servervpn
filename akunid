@@ -1,16 +1,16 @@
 proxies:
-  - name: ID-DEWAWEB
+  - name: ID-BIZNET
     server: support.zoom.us
     type: trojan
     port: 443
-    password: 7868328e-8eca-4487-ab06-c207335755c5
+    password: a421dba3-d6d9-4593-a355-5a992ff0f1e6
     skip-cert-verify: true
-    sni: zoomgov.servercepat.net
+    sni: zoomgov.storevpn.cc
     network: ws
     ws-opts:
-      path: /trojan-ws
+      path: /trojan
       headers:
-        Host: id4.servercepat.net
+        Host: biznet-2.storevpn.cc
     udp: true
   - name: ID-UNINET
     server: support.zoom.us
