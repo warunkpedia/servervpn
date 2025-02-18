@@ -27,3 +27,17 @@ proxies:
       headers:
         Host: sg1.servercepat.net
     udp: true
+  - name: XL-VIDIO-ID
+    server: 172.67.5.14
+    type: trojan
+    port: 443
+    password: e142bacf-ffd5-43d8-ac7e-9d41a998d3bd
+    tls: true
+    skip-cert-verify: true
+    sni: id-uninet.webkuy.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id-uninet.webkuy.my.id
+    udp: true
