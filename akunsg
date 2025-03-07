@@ -12,20 +12,6 @@ proxies:
       headers:
         Host: id4.servercepat.net
     udp: true
-  - name: SG2-DIGITALOCEAN
-    server: support.zoom.us
-    type: trojan
-    port: 443
-    password: ab78caf5-982b-47a7-a0c8-c64982039e47
-    tls: true
-    skip-cert-verify: true
-    sni: zoomgov.servercepat.net
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: sg2.servercepat.net
-    udp: true
   - name: SG1-DIGITALOCEAN
     server: support.zoom.us
     type: trojan
