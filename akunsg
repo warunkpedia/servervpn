@@ -1,4 +1,17 @@
 proxies:
+  - name: ID-IKD
+    server: support.zoom.us
+    type: trojan
+    port: 443
+    password: 3add80fe-9123-401d-922b-c6aca74b6b2f
+    skip-cert-verify: true
+    sni: zoomgov.servercepat.net
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id4.servercepat.net
+    udp: true
   - name: SG2-DIGITALOCEAN
     server: support.zoom.us
     type: trojan
