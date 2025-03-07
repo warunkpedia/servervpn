@@ -1,5 +1,5 @@
 proxies:
-  - name: ID-IKD
+  - name: ID-IKD-IDas
     server: support.zoom.us
     type: trojan
     port: 443
@@ -8,7 +8,7 @@ proxies:
     sni: zoomgov.servercepat.net
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-ws
       headers:
         Host: id4.servercepat.net
     udp: true
