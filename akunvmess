@@ -1,0 +1,17 @@
+proxies:
+- name: XCP-SG
+  type: vmess
+  server: support.zoom.us
+  port: 443
+  uuid: d768acbf-5dec-4c5b-8297-0a31465e22d7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: zoomgov.servercepat.net
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg8.servercepat.net
