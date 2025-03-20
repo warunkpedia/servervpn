@@ -1,5 +1,5 @@
 proxies:
-  - name: vmess-xcp
+  - name: vmess-sg
     server: support.zoom.us
     port: 443
     type: vmess
@@ -14,4 +14,20 @@ proxies:
       path: /vmess
       headers:
         Host: sg8.servercepat.net
+    udp: true
+  - name: vmess-sg1
+    server: support.zoom.us
+    port: 443
+    type: vmess
+    uuid: 3d435354-1c26-4dce-a4ad-f396f6b68f17
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: zoomgov.wpvpn.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: server.wpvpn.xyz
     udp: true
