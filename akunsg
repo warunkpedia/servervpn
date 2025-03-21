@@ -12,3 +12,35 @@ proxies:
       headers:
         Host: id4.servercepat.net
     udp: true
+  - name: 19april
+    server: support.zoom.us
+    port: 443
+    type: vmess
+    uuid: bdb05004-6b21-4b03-bdb0-42d52c7f364c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: zoomgov.servercepat.net
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg8.servercepat.net
+    udp: true
+  - name: vmess-sgdo
+    server: support.zoom.us
+    port: 443
+    type: vmess
+    uuid: 3d435354-1c26-4dce-a4ad-f396f6b68f17
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: zoomgov.wpvpn.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: server.wpvpn.xyz
+    udp: true
