@@ -13,7 +13,7 @@ proxies:
         Host: id4.servercepat.net
     udp: true
   - name: 19april
-    server: support.zoom.us
+    server: 104.22.5.240
     port: 443
     type: vmess
     uuid: bdb05004-6b21-4b03-bdb0-42d52c7f364c
@@ -21,7 +21,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: zoomgov.servercepat.net
+    servername: sg8.servercepat.net
     network: ws
     ws-opts:
       path: /vmess
