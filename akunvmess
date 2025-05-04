@@ -1,49 +1,27 @@
 proxies:
-  - name: vmess-sg
-    server: support.zoom.us
+  - name: ID-UNINET
+    server: ava.game.naver.com
+    type: trojan
     port: 443
-    type: vmess
-    uuid: bdb05004-6b21-4b03-bdb0-42d52c7f364c
-    alterId: 0
-    cipher: auto
-    tls: true
+    password: 3f1b195c-ade4-4638-bc3d-b6a87dbbdfc2
     skip-cert-verify: true
-    servername: zoomgov.servercepat.net
+    sni: ava.game.naver.com.id-ui2.vmess.live
     network: ws
     ws-opts:
-      path: /vmess
+      path: /trojan
       headers:
-        Host: sg8.servercepat.net
+        Host: ava.game.naver.com.id-ui2.vmess.live
     udp: true
-  - name: vmess-sg1
-    server: support.zoom.us
+  - name: ID-ZENLAYER
+    server: ava.game.naver.com
+    type: trojan
     port: 443
-    type: vmess
-    uuid: 3d435354-1c26-4dce-a4ad-f396f6b68f17
-    alterId: 0
-    cipher: auto
-    tls: true
+    password: 84c8b020-c441-4fd0-89d9-7a5c0a0cb5c5
     skip-cert-verify: true
-    servername: zoomgov.wpvpn.xyz
+    sni: ava.game.naver.com.id1.servercepat.net
     network: ws
     ws-opts:
-      path: /vmess
+      path: /trojan-ws
       headers:
-        Host: server.wpvpn.xyz
-    udp: true
-  - name: vmess-ikd4
-    server: support.zoom.us
-    port: 443
-    type: vmess
-    uuid: dfd5e979-d8bf-489d-87da-cac0e25f7bd0
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: zoomgov.servercepat.net
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id4.servercepat.net
+        Host: ava.game.naver.com.id1.servercepat.net
     udp: true
