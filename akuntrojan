@@ -1,0 +1,27 @@
+proxies:
+  - name: ID-UNINET
+    server: ava.game.naver.com
+    type: trojan
+    port: 443
+    password: 3f1b195c-ade4-4638-bc3d-b6a87dbbdfc2
+    skip-cert-verify: true
+    sni: ava.game.naver.com.id-ui2.vmess.live
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: ava.game.naver.com.id-ui2.vmess.live
+    udp: true
+  - name: ID-ZENLAYER
+    server: ava.game.naver.com
+    type: trojan
+    port: 443
+    password: 84c8b020-c441-4fd0-89d9-7a5c0a0cb5c5
+    skip-cert-verify: true
+    sni: ava.game.naver.com.id1.servercepat.net
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: ava.game.naver.com.id1.servercepat.net
+    udp: true
