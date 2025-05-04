@@ -1,5 +1,5 @@
 proxies:
-  - name: ID-UNINET
+  - name: ID-UNINET-🇮🇩
     server: ava.game.naver.com
     type: trojan
     port: 443
@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.id-ui2.vmess.live
     udp: true
-  - name: ID-ZENLAYER
+  - name: ID-ZENLAYER-🇮🇩
     server: ava.game.naver.com
     type: trojan
     port: 443
